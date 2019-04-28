@@ -25,7 +25,7 @@ import (
 
 	"golang.org/x/text/transform"
 
-	"github.com/gdamore/tcell/terminfo"
+	"git.parallelcoin.io/dev/tcell/terminfo"
 )
 
 // NewTerminfoScreen returns a Screen that uses the stock TTY interface
@@ -385,8 +385,8 @@ outer:
 func (t *tScreen) Fini() {
 	t.Lock()
 	defer t.Unlock()
-	
-	ti := t.ti	
+
+	ti := t.ti
 	t.cells.Resize(0, 0)
 	t.TPuts(ti.ShowCursor)
 	t.TPuts(ti.AttrOff)
@@ -405,7 +405,7 @@ func (t *tScreen) Fini() {
 	default:
 		close(t.quit)
 	}
-	
+
 	t.termioFini()
 }
 

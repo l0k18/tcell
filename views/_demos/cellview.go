@@ -18,8 +18,8 @@ import (
 	"fmt"
 	"os"
 
-	"github.com/gdamore/tcell"
-	"github.com/gdamore/tcell/views"
+	"git.parallelcoin.io/dev/tcell"
+	"git.parallelcoin.io/dev/tcell/views"
 )
 
 var app = &views.Application{}

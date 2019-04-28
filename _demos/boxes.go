@@ -22,7 +22,7 @@ import (
 	"os"
 	"time"
 
-	"github.com/gdamore/tcell"
+	"git.parallelcoin.io/dev/tcell"
 )
 
 func makebox(s tcell.Screen) {

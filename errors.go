@@ -18,7 +18,7 @@ import (
 	"errors"
 	"time"
 
-	"github.com/gdamore/tcell/terminfo"
+	"git.parallelcoin.io/dev/tcell/terminfo"
 )
 
 var (

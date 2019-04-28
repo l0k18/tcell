@@ -16,7 +16,7 @@ package encoding
 
 import (
 	"github.com/gdamore/encoding"
-	"github.com/gdamore/tcell"
+	"git.parallelcoin.io/dev/tcell"
 
 	"golang.org/x/text/encoding/charmap"
 	"golang.org/x/text/encoding/japanese"

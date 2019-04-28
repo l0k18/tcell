@@ -2,9 +2,9 @@
 
 [![Linux Status](https://img.shields.io/travis/gdamore/tcell.svg?label=linux)](https://travis-ci.org/gdamore/tcell)
 [![Windows Status](https://img.shields.io/appveyor/ci/gdamore/tcell.svg?label=windows)](https://ci.appveyor.com/project/gdamore/tcell)
-[![Apache License](https://img.shields.io/badge/license-APACHE2-blue.svg)](https://github.com/gdamore/tcell/blob/master/LICENSE)
+[![Apache License](https://img.shields.io/badge/license-APACHE2-blue.svg)](https://git.parallelcoin.io/dev/tcell/blob/master/LICENSE)
 [![Gitter](https://img.shields.io/badge/gitter-join-brightgreen.svg)](https://gitter.im/gdamore/tcell)
-[![GoDoc](https://img.shields.io/badge/godoc-reference-blue.svg)](https://godoc.org/github.com/gdamore/tcell)
+[![GoDoc](https://img.shields.io/badge/godoc-reference-blue.svg)](https://godoc.org/git.parallelcoin.io/dev/tcell)
 [![Go Report Card](http://goreportcard.com/badge/gdamore/tcell)](http://goreportcard.com/report/gdamore/tcell)
 [![codecov](https://codecov.io/gh/gdamore/tcell/branch/master/graph/badge.svg)](https://codecov.io/gh/gdamore/tcell)
 
@@ -21,7 +21,7 @@ ways.  It also adds substantial functionality beyond termbox.
 * [gomatrix](https://github.com/gdamore/gomatrix) - converted from Termbox
 * [micro](https://github.com/zyedidia/micro/) - lightweight text editor with syntax-highlighting and themes
 * [godu](https://github.com/viktomas/godu) - simple golang utility helping to discover large files/folders.
-* [tview](https://github.com/rivo/tview) - rich interactive widgets for terminal UIs
+* [tview](https://git.parallelcoin.com/dev/tview) - rich interactive widgets for terminal UIs
 * [tui-go](https://github.com/marcusolsson/tui-go) - UI library for terminal apps
 * [gomandelbrot](https://github.com/rgm3/gomandelbrot) - Mandelbrot!
 
@@ -90,7 +90,7 @@ regular mouse motion events, and wheel events, if your terminal supports it.
 ## Termbox Compatibility 
 
 A compatibility layer for termbox is provided in the compat
-directory.  To use it, try importing "github.com/gdamore/tcell/termbox"
+directory.  To use it, try importing "git.parallelcoin.io/dev/tcell/termbox"
 instead.  Most termbox-go programs will probably work without further
 modification.
 

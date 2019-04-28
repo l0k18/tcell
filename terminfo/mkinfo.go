@@ -49,7 +49,7 @@ import (
 	"strconv"
 	"strings"
 
-	"github.com/gdamore/tcell/terminfo"
+	"git.parallelcoin.io/dev/tcell/terminfo"
 )
 
 type termcap struct {

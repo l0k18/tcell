@@ -20,8 +20,8 @@ import (
 	"fmt"
 	"os"
 
-	"github.com/gdamore/tcell"
-	"github.com/gdamore/tcell/encoding"
+	"git.parallelcoin.io/dev/tcell"
+	"git.parallelcoin.io/dev/tcell/encoding"
 	"github.com/mattn/go-runewidth"
 )
 
